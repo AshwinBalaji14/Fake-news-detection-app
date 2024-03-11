@@ -4,8 +4,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.utils.validation import NotFittedError, check_is_fitted
+from sklearn.utils.validation import NotFittedError
 
 # Load your data here
 dataframe_fake = pd.read_csv("Fake.csv")
